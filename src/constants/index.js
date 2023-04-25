@@ -25,6 +25,7 @@ import {
   tesla,
   shopify,
   youngminds,
+  wyw,
   jobit,
   tripguide,
   threejs,
@@ -191,11 +192,15 @@ const projects = [
   {
     name: "Youngmindsgroup",
     description:
-      "Web-based platform that allows users to purchase courses, book themself's for master classes(events), purchase notes, also user can ulpoad courses, events and sells. First Admin will verify the content only after that content will we visible on site.",
+      "Web-based platform that allows users to purchase courses, book themself's for master classes, purchase notes, also user can ulpoad courses, events and sells. Only the verified content will we visible on site.",
     tags: [
       {
-        name: "node",
+        name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "pink-text-gradient",
       },
       {
         name: "postgresql",
@@ -212,7 +217,7 @@ const projects = [
   {
     name: "WYW",
     description:
-      "Publicis Groupe announced ‘Work Your World’, a global employee-first experience unique to Marcel, which combines flexibility, opportunity and, growth for all talent.",
+      "Publicis Groupe announced ‘Work Your World’, which combines flexibility, opportunity and growth for all talent. Now every employee can work anywhere on the planet there's a Publicis office.",
     tags: [
       {
         name: "react",
@@ -226,8 +231,12 @@ const projects = [
         name: "mssql",
         color: "pink-text-gradient",
       },
+      {
+        name: "azure",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
+    image: wyw,
     source_code_link: "https://github.com/",
   },
   {

@@ -25,9 +25,9 @@ const Hero = () => {
             {myProfile.myDescLine2}
           </p>
         </div>
-      <div className="top-[200px] w-80 h-80">
-        <ComputersCanvas />
-      </div>
+        <div className="top-[200px] w-80 h-80">
+          <ComputersCanvas />
+        </div>
       </div>
 
 
