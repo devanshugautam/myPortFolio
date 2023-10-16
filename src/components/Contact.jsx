@@ -6,7 +6,8 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { github } from '../assets';
+import { github, linkedIn, insta } from '../assets';
+import { myProfile } from '../constants';
 
 const Contact = () => {
   const formRef = useRef();
@@ -133,7 +134,10 @@ const Contact = () => {
         </motion.div>
       </div>
       <div className='flex-[0.75] bg-black-100 p-8 rounded-2xl mt-7'>
-        <p className={styles.sectionSubText}>Social Media Links</p>
+        <div className='flex justify-center'>
+
+          <p className={styles.sectionSubText}>Social Media Links</p>
+        </div>
         {/* <h3 className={styles.sectionHeadText}>Contact.</h3> */}
         {/* <p className=' font-normal text-white mt-6'> */}
         {/* <span className='text-white font-medium mb-4'>Git</span> */}
@@ -147,9 +151,9 @@ const Contact = () => {
               className='w-1/2 h-1/2 object-contain'
             />
           </div> */}
-        <div className='grid grid-cols-5 gap-2 flex justify-center'>
-        <div
-            onClick={() => window.open('source_code_link', "_blank")}
+        <div className='gap-5 flex justify-center'>
+          <div
+            onClick={() => window.open(myProfile.gitHub, "_blank")}
             className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer mt-7'
           >
             <img
@@ -159,31 +163,21 @@ const Contact = () => {
             />
           </div>
           <div
-            onClick={() => window.open('source_code_link', "_blank")}
+            onClick={() => window.open(myProfile.linkedIn, "_blank")}
             className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer mt-7'
           >
             <img
-              src={github}
+              src={linkedIn}
               alt='source code'
-              className='w-1/2 h-1/2 object-contain'
+              className='w-1/2 h-1/2 object-contain color-white'
             />
           </div>
           <div
-            onClick={() => window.open('source_code_link', "_blank")}
+            onClick={() => window.open(myProfile.insta, "_blank")}
             className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer mt-7'
           >
             <img
-              src={github}
-              alt='source code'
-              className='w-1/2 h-1/2 object-contain'
-            />
-          </div>
-          <div
-            onClick={() => window.open('source_code_link', "_blank")}
-            className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer mt-7'
-          >
-            <img
-              src={github}
+              src={insta}
               alt='source code'
               className='w-1/2 h-1/2 object-contain'
             />

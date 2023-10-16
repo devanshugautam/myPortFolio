@@ -102,7 +102,7 @@ const technologies = [
     name: "PostgresSQL",
     icon: postgres,
   },
-  
+
   {
     name: "MSSQL Server",
     icon: mssql,
@@ -269,7 +269,10 @@ const myProfile = {
   myDescLine1: "As a fullStack developer, I have worked on verious project using tech like React.Js, Node.Js and Dart, also i have experience on multiple databases like mySql, MsSQL, PostgreSQL, MongoDB, DynamoDB etc.",
   myDescLine2: "This portfolio contains approximately all information about me.",
   myDesc: "I'm an experienced software developer with proficiency in JavaScript, TypeScript, and Dart. I specialize in React, Node.js, Next.js, and Flutter and have a proven track record of creating efficient, scalable, and user-friendly solutions that solve real-world problems. As a quick learner, I work closely with clients to bring their ideas to life. Let's collaborate to turn your vision into a reality!",
-  myProjectDesc: "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively."
+  myProjectDesc: "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.",
+  gitHub: "https://github.com/devanshugautam",
+  linkedIn: "https://www.linkedin.com/in/devanshu-gautam-1a385415b/",
+  insta: "https://www.instagram.com/devanshugautam87/"
 }
 
 export { services, technologies, experiences, testimonials, projects, myProfile };
