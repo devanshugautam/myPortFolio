@@ -1,34 +1,34 @@
 import {
   mobile,
   backend,
-  creator,
+  // creator,
   web,
   javascript,
   typescript,
-  html,
-  css,
+  // html,
+  // css,
   reactjs,
   redux,
-  tailwind,
+  // tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
+  // figma,
+  // docker,
   postgres,
   mssql,
   dart,
   nextjs,
   flutter,
-  meta,
+  // meta,
   imgGlobalInfotech,
-  tesla,
-  shopify,
+  // tesla,
+  // shopify,
   youngminds,
   wyw,
-  jobit,
+  // jobit,
   tripguide,
-  threejs,
+  // threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -43,7 +43,7 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
-  },
+  }
 ];
 
 const services = [

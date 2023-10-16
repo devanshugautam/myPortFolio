@@ -1,5 +1,6 @@
-import React from "react";
-import Tilt from "react-tilt";
+/* eslint-disable react/prop-types */
+// import React from "react";
+// import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -8,6 +9,7 @@ import { SectionWrapper } from "../hoc";
 import { projects, myProfile } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
+// eslint-disable-next-line react-refresh/only-export-components
 const ProjectCard = ({
   index,
   name,
@@ -18,14 +20,17 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
+      {/* <Tilt
         options={{
           max: 15,
           scale: 1,
           speed: 450,
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
-      >
+      > */}
+      <div className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'>
+
+
         <div className="h-[430px] flex flex-col justify-between">
           <div className='relative w-full h-[230px]'>
             <div className="h-full">
@@ -66,7 +71,8 @@ const ProjectCard = ({
             ))}
           </div>
         </div>
-      </Tilt>
+        {/* </Tilt> */}
+      </div>
     </motion.div>
   );
 };
@@ -88,7 +94,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-5'>
+      <div className='mt-20 flex flex-wrap gap-6'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks, myProfile } from "../constants";
-import { logo, menu, close } from "../assets";
+import { menu, close } from "../assets";
 import Logoimage from '../assets/dgLogo.webp';
 
 const Navbar = () => {
