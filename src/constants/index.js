@@ -5,30 +5,26 @@ import {
   web,
   javascript,
   typescript,
-  // html,
-  // css,
   reactjs,
   redux,
-  // tailwind,
   nodejs,
   mongodb,
   git,
-  // figma,
-  // docker,
   postgres,
   mssql,
+  mysql,
+  dynamoDB,
   dart,
   nextjs,
+  nestjs,
+  express,
   flutter,
-  // meta,
+  redis,
+  socket,
   imgGlobalInfotech,
-  // tesla,
-  // shopify,
   youngminds,
   wyw,
-  // jobit,
-  tripguide,
-  // threejs,
+  wtf
 } from "../assets";
 
 export const navLinks = [
@@ -63,14 +59,6 @@ const services = [
 
 const technologies = [
   {
-    name: "Next.Js",
-    icon: nextjs,
-  },
-  {
-    name: "Flutter",
-    icon: flutter,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -79,20 +67,36 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "Express JS",
+    icon: express,
+  },
+  {
+    name: "Nest JS",
+    icon: nestjs,
+  },
+  {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Next Js",
+    icon: nextjs,
   },
   {
     name: "Redux Toolkit",
     icon: redux,
   },
   {
-    name: "Dart",
-    icon: dart,
+    name: "Flutter",
+    icon: flutter,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Dart",
+    icon: dart,
   },
   {
     name: "MongoDB",
@@ -102,10 +106,25 @@ const technologies = [
     name: "PostgresSQL",
     icon: postgres,
   },
-
   {
     name: "MSSQL Server",
     icon: mssql,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "DynamoDB",
+    icon: dynamoDB,
+  },
+  {
+    name: "Redis",
+    icon: redis,
+  },
+  {
+    name: "socket.io",
+    icon: socket,
   },
   {
     name: "git",
@@ -134,31 +153,32 @@ const experiences = [
     ],
   },
   {
-    title: "React.js Developer",
+    title: "MERN Stack Developer",
     company_name: "IMG Global Infotech Private Limited",
     icon: imgGlobalInfotech,
     iconBg: "#E6DEDD",
     date: "Oct 2022 - Till now",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Flutter Developer",
-    company_name: "IMG Global Infotech Private Limited",
-    icon: imgGlobalInfotech,
-    iconBg: "#383E56",
-    date: "Jan 2023 - Till now",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using MERN Stack and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   }
+  // ,
+  // {
+  //   title: "Flutter Developer",
+  //   company_name: "IMG Global Infotech Private Limited",
+  //   icon: imgGlobalInfotech,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2023 - Till now",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // }
 ];
 
 const testimonials = [
@@ -212,7 +232,8 @@ const projects = [
       },
     ],
     image: youngminds,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/devanshugautam",
+    siteLink: "https://youngmindsgroup.com/home/landing-page"
   },
   {
     name: "WYW",
@@ -237,28 +258,34 @@ const projects = [
       },
     ],
     image: wyw,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/devanshugautam",
+    siteLink: "https://marcel.ai/public/article/2021/december/publicis-launches-work-your-world-on-marcel-as-part-of-its-commitment-to-future-of-work"
   },
   {
-    name: "Trip Guide",
+    name: "Witness The Fitness",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      `"Witness The Fitness" is a holistic fitness program that empowers individuals on their journey to a healthier lifestyle. It inspires, educates, and supports participants in achieving their fitness goals.`,
     tags: [
       {
-        name: "nextjs",
+        name: "node",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "dynamodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "postgresql",
         color: "pink-text-gradient",
       },
+      {
+        name: "aws",
+        color: "green-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: wtf,
+    source_code_link: "https://github.com/devanshugautam",
+    siteLink: "https://wtfup.me/"
   },
 ];
 
@@ -266,7 +293,7 @@ const myProfile = {
   Fname: "Devanshu",
   Lname: "Gautam",
   myTechStack: "FullStack Developer",
-  myDescLine1: "As a fullStack developer, I have worked on verious project using tech like React.Js, Node.Js and Dart, also i have experience on multiple databases like mySql, MsSQL, PostgreSQL, MongoDB, DynamoDB etc.",
+  myDescLine1: "As a fullStack developer, I have worked on various project using tech like React.Js, Node.Js and Dart, also i have experience on multiple databases like mySql, MsSQL, PostgreSQL, MongoDB, DynamoDB etc.",
   myDescLine2: "This portfolio contains approximately all information about me.",
   myDesc: "I'm an experienced software developer with proficiency in JavaScript, TypeScript, and Dart. I specialize in React, Node.js, Next.js, and Flutter and have a proven track record of creating efficient, scalable, and user-friendly solutions that solve real-world problems. As a quick learner, I work closely with clients to bring their ideas to life. Let's collaborate to turn your vision into a reality!",
   myProjectDesc: "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.",
