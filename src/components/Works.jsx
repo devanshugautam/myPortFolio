@@ -23,6 +23,7 @@ const ProjectCard = ({
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = () => {
+    console.log('opening model');
     setIsModalOpen(true);
   };
 
@@ -38,9 +39,10 @@ const ProjectCard = ({
       <div className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'>
 
 
-        <div className="h-[430px] flex flex-col justify-between">
-          <div className='relative w-full h-[230px]' onClick={openModal}>
-            <div className="h-full">
+        <div className="h-[430px] flex flex-col justify-between" onClick={openModal}>
+          <div className='relative w-full h-[230px]'>
+          <div className='relative w-full h-[230px]'>
+            {/* <div className="h-full"> */}
               <img
                 src={image}
                 alt='project_image'
