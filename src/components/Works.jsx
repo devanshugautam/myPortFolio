@@ -24,7 +24,7 @@ const ProjectCard = ({
 
   const openModal = () => {
     console.log('opening model');
-    setIsModalOpen(true);
+    // setIsModalOpen(true);
   };
 
   const closeModal = () => {

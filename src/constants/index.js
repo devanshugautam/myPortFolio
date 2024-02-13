@@ -6,7 +6,8 @@ import {
   javascript,
   typescript,
   reactjs,
-  redux,
+  // redux,
+  vue,
   nodejs,
   mongodb,
   git,
@@ -14,17 +15,18 @@ import {
   mssql,
   mysql,
   dynamoDB,
-  dart,
+  // dart,
   nextjs,
   nestjs,
   express,
-  flutter,
+  // flutter,
   redis,
   socket,
   imgGlobalInfotech,
-  youngminds,
+  // youngminds,
   wyw,
-  wtf
+  wtf,
+  erpwise
 } from "../assets";
 
 export const navLinks = [
@@ -87,17 +89,21 @@ const technologies = [
     icon: nextjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Vue Js",
+    icon: vue,
   },
   {
-    name: "Flutter",
-    icon: flutter,
+    name: "socket.io",
+    icon: socket,
   },
-  {
-    name: "Dart",
-    icon: dart,
-  },
+  // {
+  //   name: "Flutter",
+  //   icon: flutter,
+  // },
+  // {
+  //   name: "Dart",
+  //   icon: dart,
+  // },
   {
     name: "MongoDB",
     icon: mongodb,
@@ -123,10 +129,6 @@ const technologies = [
     icon: redis,
   },
   {
-    name: "socket.io",
-    icon: socket,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -138,21 +140,6 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Node.js Developer",
-    company_name: "IMG Global Infotech Private Limited",
-    icon: imgGlobalInfotech,
-    iconBg: "#383E56",
-    date: "Feb 2021 - Till now",
-    // date: "Feb 2021 - Sept 2022",
-    points: [
-      "Developing backend applications using Node.js and it's related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing both REST Api, GraphQl Api and ensuring cross-browser compatibility.",
-      "Integrating multiple databases according to client requirment.",
-      "Participating in code reviews, unit testing and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "MERN Stack Developer",
     company_name: "IMG Global Infotech Private Limited",
     icon: imgGlobalInfotech,
@@ -163,6 +150,20 @@ const experiences = [
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Node.js Developer",
+    company_name: "IMG Global Infotech Private Limited",
+    icon: imgGlobalInfotech,
+    iconBg: "#383E56",
+    date: "Feb 2021 - Sept 2022",
+    points: [
+      "Developing backend applications using Node.js and it's related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing both REST Api, GraphQl Api and ensuring cross-browser compatibility.",
+      "Integrating multiple databases according to client requirment.",
+      "Participating in code reviews, unit testing and providing constructive feedback to other developers.",
     ],
   }
   // ,
@@ -184,38 +185,64 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      " I want to acknowledge the incredible work you have done in ERPWISE. Your mastery of mongodb and backend development truly shines through and the logic you have crafted is nothing short of impressive. Your commitment to maintaining a clean and structured codebase aligns perfectly with coding standards. Your dedication to excellence is truly valued and I am confident that you will achieve great things in your life with this dedication.",
+    name: "Anjali Vaishnav",
+    designation: "SDE",
+    company: "IMG",
+    image: "https://avatars.githubusercontent.com/u/42146367?v=4",
   },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  // {
+  //   testimonial:
+  //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
+  //   name: "Chris Brown",
+  //   designation: "COO",
+  //   company: "DEF Corp",
+  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+  // },
+  // {
+  //   testimonial:
+  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //   name: "Lisa Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
 ];
 
 const projects = [
+  // {
+  //   name: "Youngmindsgroup",
+  //   description:
+  //     "Web-based platform that allows users to purchase courses, book themself's for master classes, purchase notes, also user can ulpoad courses, events and sells. Only the verified content will we visible on site.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "node",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "postgresql",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "AWS",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: youngminds,
+  //   source_code_link: "https://github.com/devanshugautam",
+  //   siteLink: "https://youngmindsgroup.com/home/landing-page"
+  // },
   {
-    name: "Youngmindsgroup",
+    name: "ErpWise",
     description:
-      "Web-based platform that allows users to purchase courses, book themself's for master classes, purchase notes, also user can ulpoad courses, events and sells. Only the verified content will we visible on site.",
+      "ErpWise provides intuitive distribution software tailored for small to medium-sized businesses in the UK, optimizing inventory management, sales, and logistics with smart tools for efficiency and growth.",
     tags: [
       {
-        name: "react",
+        name: "angular",
         color: "blue-text-gradient",
       },
       {
@@ -223,17 +250,17 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "postgresql",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "AWS",
+        name: "aws",
         color: "pink-text-gradient",
       },
     ],
-    image: youngminds,
+    image: erpwise,
     source_code_link: "https://github.com/devanshugautam",
-    siteLink: "https://youngmindsgroup.com/home/landing-page"
+    siteLink: "http://159.65.80.24/auth/login"
   },
   {
     name: "WYW",

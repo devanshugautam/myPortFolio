@@ -34,6 +34,7 @@ import flutter from "./tech/flutter.jpg";
 import nestjs from "./tech/nest.webp";
 import redis from "./tech/redis.png";
 import socket from "./tech/socket.png";
+import vue from "./tech/vue.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -47,6 +48,7 @@ import jobit from "./jobit.png";
 import youngminds from "./project/youngmind.jfif";
 import wyw from "./project/wyw.jfif";
 import wtf from "./project/wtf.png";
+import erpwise from "./project/erpwise.jpeg";
 
 export {
   logo,
@@ -89,9 +91,11 @@ export {
   flutter,
   redis,
   socket,
+  vue,
   // projects
   youngminds,
   wyw,
-  wtf
+  wtf,
+  erpwise
 
 };

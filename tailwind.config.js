@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: ["./src/**/*.{js,jsx}"],
   mode: "jit",
   theme: {
@@ -21,6 +21,20 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
+      animation: {
+        'swiper': 'swiper 20s linear infinite',
+      },
+      keyframes: {
+        swiper: {
+          '0%': {     
+            transform: "translateZ(0)",
+            visibility: "visible", 
+          },
+          '100%': { 
+            transform: "translate3d(-100%,0,0)"
+          },
+        }
+      }
     },
   },
   plugins: [],

@@ -6,7 +6,7 @@ import { technologies } from "../constants";
 
 const Tech = () => {
   return (
-    <div className='flex flex-row flex-wrap justify-center gap-10'>
+    <div className='flex flex-row flex-wrap justify-center gap-12'>
       {technologies.map((technology, index) => (
         <div className=" group hover:text-white cursor-pointer" key={index}>
           <div className="shadow-md shadow-indigo-500/50 rounded-full overflow-hidden w-16 h-16 mx-auto border-2 border-white">
