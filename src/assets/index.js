@@ -41,6 +41,7 @@ import shopify from "./company/shopify.png";
 // import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import imgGlobalInfotech from "./company/img.jpg";
+import PublicisResources from "./company/PublicisReSourcesLogo.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -76,6 +77,8 @@ export {
   tailwind,
   typescript,
   nestjs,
+  //company
+  PublicisResources,
   meta,
   shopify,
   imgGlobalInfotech,

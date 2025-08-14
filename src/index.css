@@ -202,3 +202,26 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+.container1{
+    /* width: 100%; */
+    display: flex; /*this*/
+    flex-wrap: wrap; /*this*/
+    padding: 1px;
+}
+
+.bbb1{
+    width: 100%;
+    border: 1px solid red ;
+    height: 100%;
+    margin: 20px;
+}
+
+.iteam1{
+ flex-grow: 1; /*this*/
+ flex-basis: 200; /*this*/
+ /* border: 5px solid black ; */
+ margin: 10px;
+ /* margin-top: 40px; */
+ /* text-align: center; */
+}

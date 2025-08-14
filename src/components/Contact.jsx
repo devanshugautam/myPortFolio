@@ -29,7 +29,7 @@ const Contact = () => {
   };
 
   const handleSubmit = (e) => {
-    console.log('>>>>>EEE>>>>>>>', e);
+    // console.log('>>>>>EEE>>>>>>>', e);
     console.log('>>>>>>>>>>>>', form);
     e.preventDefault();
     setLoading(true);
@@ -89,10 +89,11 @@ const Contact = () => {
             <button
               type='submit'
               className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            // onSubmit={(e)=> handleSubmit(e)}
             >
-            <a className="no-underline" href={`mailto:devanshugautam0@gmail.com?subject=Portfolio%20Connect&body=${form.message}`}>
-            {loading ? "Sending..." : "Send"}
-            </a>
+              {/* <a className="no-underline" href={`mailto:devanshugautam0@gmail.com?subject=Portfolio%20Connect&body=${form.message}`}> */}
+              {loading ? "Sending..." : "Send"}
+              {/* </a> */}
 
             </button>
           </form>
@@ -159,7 +160,7 @@ const Contact = () => {
         {/* </p> */}
       </div>
 
-    </div>
+    </div >
   );
 };
 
