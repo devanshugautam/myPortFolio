@@ -15,18 +15,21 @@ const Hero = () => {
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
-
-        <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I&apos;m <span className='text-[#915EFF]'>{myProfile.Fname}</span>
-          </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            {myProfile.myDescLine1} <br className='sm:block hidden' />
-            {myProfile.myDescLine2}
-          </p>
-        </div>
-        <div className="top-[200px] w-80 h-80">
-          <ComputersCanvas />
+        {/* to  inline both text and 3d image remove below two div's along with their classes */}
+        <div className="container1">
+          <div className="iteam1">
+            <h1 className={`${styles.heroHeadText} text-white`}>
+              Hi, I&apos;m <span className='text-[#915EFF]'>{myProfile.Fname}</span>
+            </h1>
+            <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+              {myProfile.myDescLine1} <br className='sm:block hidden' />
+              {myProfile.myDescLine2}
+            </p>
+          </div>
+          {/* <div className="top-[200px] w-max h-max iteam1"> */}
+          <div className="top-[200px] w-80 h-80 iteam1">
+            <ComputersCanvas />
+          </div>
         </div>
       </div>
 

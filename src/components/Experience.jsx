@@ -35,11 +35,20 @@ const ExperienceCard = ({ experience }) => {
       <div>
         <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
         <p
-          className='text-secondary text-[16px] font-semibold'
+          className='text-white text-[20px] font-semibold'
           style={{ margin: 0 }}
         >
           {experience.company_name}
         </p>
+        <p
+          className='text-secondary text-[5px] font-semibold'
+          style={{ margin: 0 }}
+        >
+          <a href={experience.company_link} target="_blank" rel="noopener noreferrer">
+            {experience.link_info}
+          </a>
+        </p>
+
       </div>
 
       <ul className='mt-5 list-disc ml-5 space-y-2'>
@@ -60,7 +69,7 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
+        <p className={`${styles.sectionSubText} text-center mt-[40vh] md:mt-0`}>
           What I have done so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>

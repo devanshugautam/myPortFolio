@@ -13,7 +13,7 @@ const Tech = () => {
             <img src={technology.icon} alt="Profile" className="w-full h-full object-cover" />
           </div>
           <div className="text-center mt-4">
-            <p className="text-gray-700 group-hover:text-white transition-colors">{technology.name}</p>
+            <p className="text-gray-400 group-hover:text-white transition-colors">{technology.name}</p>
           </div>
         </div>
       ))}

@@ -23,6 +23,7 @@ import {
   redis,
   socket,
   imgGlobalInfotech,
+  PublicisResources,
   // youngminds,
   wyw,
   wtf,
@@ -31,7 +32,7 @@ import {
 
 export const navLinks = [
   {
-    id: "about",
+    id: "",
     title: "About",
   },
   {
@@ -41,7 +42,11 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
-  }
+  },
+  //   {
+  //   id: "date",
+  //   title: "Date",
+  // }
 ];
 
 const services = [
@@ -140,11 +145,29 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Associate Technology L2",
+    company_name: "Publicis Re:Sources",
+    company_link: "https://www.publicisresources.com/",
+    link_info: "Visit Publicis Resources",
+    icon: PublicisResources,
+    iconBg: "#383E56",
+    date: "April 2024 - Till now",
+    points: [
+      "Successfully delivered high-quality solutions on time and within budget for each project.",
+      "Integrated real-time features using Socket.io for seamless live updates and interactions.",
+      "Conducted in-depth code reviews, refactored legacy code, and implemented coding standards to maintain high code quality and team consistency.",
+      "Managed databases including MSSQL, MongoDB, postgreSQL and Redis, optimizing queries for performance and reliability.",
+      "Mentored junior developers, fostering a collaborative and knowledge-sharing environment within the team."
+    ],
+  },
+  {
     title: "MERN Stack Developer",
     company_name: "IMG Global Infotech Private Limited",
+    company_link: "https://www.imgglobalinfotech.com/",
+    link_info: "Visit Img Global Infotech",
     icon: imgGlobalInfotech,
     iconBg: "#E6DEDD",
-    date: "Oct 2022 - Till now",
+    date: "October 2022 - April 2024",
     points: [
       "Developing and maintaining web applications using MERN Stack and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -155,9 +178,11 @@ const experiences = [
   {
     title: "Node.js Developer",
     company_name: "IMG Global Infotech Private Limited",
+    company_link: "https://www.imgglobalinfotech.com/",
+    link_info: "Visit Img Global Infotech",
     icon: imgGlobalInfotech,
     iconBg: "#383E56",
-    date: "Feb 2021 - Sept 2022",
+    date: "February 2021 - September 2022",
     points: [
       "Developing backend applications using Node.js and it's related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -183,6 +208,30 @@ const experiences = [
 ];
 
 const testimonials = [
+  {
+    testimonial:
+      " I want to acknowledge the incredible work you have done in ERPWISE. Your mastery of mongodb and backend development truly shines through and the logic you have crafted is nothing short of impressive. Your commitment to maintaining a clean and structured codebase aligns perfectly with coding standards. Your dedication to excellence is truly valued and I am confident that you will achieve great things in your life with this dedication.",
+    name: "Anjali Vaishnav",
+    designation: "SDE",
+    company: "IMG",
+    image: "https://avatars.githubusercontent.com/u/42146367?v=4",
+  },
+  {
+    testimonial:
+      " I want to acknowledge the incredible work you have done in ERPWISE. Your mastery of mongodb and backend development truly shines through and the logic you have crafted is nothing short of impressive. Your commitment to maintaining a clean and structured codebase aligns perfectly with coding standards. Your dedication to excellence is truly valued and I am confident that you will achieve great things in your life with this dedication.",
+    name: "Anjali Vaishnav",
+    designation: "SDE",
+    company: "IMG",
+    image: "https://avatars.githubusercontent.com/u/42146367?v=4",
+  },
+  {
+    testimonial:
+      " I want to acknowledge the incredible work you have done in ERPWISE. Your mastery of mongodb and backend development truly shines through and the logic you have crafted is nothing short of impressive. Your commitment to maintaining a clean and structured codebase aligns perfectly with coding standards. Your dedication to excellence is truly valued and I am confident that you will achieve great things in your life with this dedication.",
+    name: "Anjali Vaishnav",
+    designation: "SDE",
+    company: "IMG",
+    image: "https://avatars.githubusercontent.com/u/42146367?v=4",
+  },
   {
     testimonial:
       " I want to acknowledge the incredible work you have done in ERPWISE. Your mastery of mongodb and backend development truly shines through and the logic you have crafted is nothing short of impressive. Your commitment to maintaining a clean and structured codebase aligns perfectly with coding standards. Your dedication to excellence is truly valued and I am confident that you will achieve great things in your life with this dedication.",
@@ -321,7 +370,8 @@ const myProfile = {
   Lname: "Gautam",
   myTechStack: "FullStack Developer",
   // myDescLine1: "Experienced MERN Stack developer with 3 years of hands-on expertise in crafting scalable web applications using React.js, Node.js, and various databases like MySQL, PostgreSQL, MongoDB, and DynamoDB. Skilled in translating complex business needs into high-performance solutions. Seeking opportunities to leverage technical expertise and problem-solving skills in a dynamic, growth-focused environment.",
-  myDescLine1: "Experienced MERN Stack developer with 3 years of hands-on expertise in crafting scalable web applications using React.js, Node.js, and various databases like MySQL, PostgreSQL, MongoDB, and DynamoDB.",
+  // myDescLine1: "Experienced MERN Stack developer with 3 years of hands-on expertise in crafting scalable web applications using React.js, Node.js, and various databases like MySQL, PostgreSQL, MongoDB, and DynamoDB.",
+  myDescLine1: "Full-stack Software Engineer with 4.5+ years of hands-on experience in building scalable web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). Proficient in both SQL and NoSQL databases, along with Redis for high-performance caching. Skilled in Agile development, Git-based version control, and deploying applications across Azure, AWS, and DigitalOcean. Adept at translating complex business requirements into robust, user-focused solutions while continually advancing technical expertise in fast-paced, growth-driven environments.",
   myDescLine2: "This portfolio contains approximately all information about me.",
   myDesc: "I'm an experienced software developer with proficiency in JavaScript, TypeScript, and Dart. I specialize in React, Node.js, Next.js, and Flutter and have a proven track record of creating efficient, scalable, and user-friendly solutions that solve real-world problems. As a quick learner, I work closely with clients to bring their ideas to life. Let's collaborate to turn your vision into a reality!",
   myProjectDesc: "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.",
