@@ -156,6 +156,10 @@ const Contact = () => {
             />
           </div>
         </div>
+        {/* <div className="gap-5 flex justify-between mt-8">
+          <p className={styles.sectionSubText}>Email : devanshugautam0@gmail.com</p>
+          <p className={styles.sectionSubText}>Phone : +91 8619523216</p>
+        </div> */}
 
         {/* </p> */}
       </div>
